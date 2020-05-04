@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Inter', sans-serif;
+
+}
+.App-container{
+  padding:50px 100px;
+}
+
+.pageHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.pageHeader hr{
+  display: none;
+  width:100%;
+  margin:20px 0;
+}
+.dark-mode span{
+  font-weight: bold;
+}
+@media screen and (max-width:620px){
+  .pageHeader{
+    display: flex;
+    flex-direction: column;
+  }
+  .pageHeader hr{
+    display: block;
+  }
+  .dark-mode{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.total-followers{
+  color:hsl(228, 12%, 44%);
+  font-weight:bold;
+  margin:5px 0;
+}
+/* Dashboards */
+.dark-mode span{
+  margin-right:5px;
+}
+.dark-mode-switch{
+  margin-top: 5px;
+}
+.dashboards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  column-gap: 25px;
+  row-gap:15px;
+  margin:50px 0;
+}
+.dashboard{
+    text-align: center;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 10px;
+}
+.dashboard:hover{
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
+.line{
+  border-radius:10px  10px 0 0;
+  width: 100%;
+  height:5px;
+}
+.card-header{
+  margin:25px;
+}
+.card-header img{
+  margin:0 5px ;
+  padding-top:3px;
+}
+.card-header span{
+  font-weight: bold;
+  color:hsl(228, 12%, 44%);
+  padding-bottom: 5px;
+}
+.card-followers{
+  font-weight: bold;
+  font-size: 45px;
+  margin:5px;
+}
+.followers{
+  letter-spacing: 5px;
+  color:#888;
+}
+.increase{
+  color:hsl(163, 72%, 41%);
+  font-weight: bold;
+  margin:20px;
+
+}
+.decrease{
+  color:hsl(356, 69%, 56%);
+  font-weight: bold;
+  margin:20px;
+  margin-bottom: 30px;
+}
+
+/* overView */
+.Overview-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.OverViews{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  column-gap: 20px;
+  row-gap:20px;
+}
+.Overview{
+  background-color: hsl(227, 47%, 96%);
+}
+.Overview:hover{
+  cursor: pointer;
+  background-color: lightgrey;
+}
+.Overview-container{
+  margin:25px;
+}
+.Overview-container header{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.Overview-container section{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+.viewName{
+font-weight: bold;
+color:hsl(228, 12%, 44%);
+}
+.quantity{
+  font-size:25px;
+  font-weight: bold;
+  margin-top:10px;
+}
+
+
+/* black mode*/
+.blackBg{
+  background-color: hsl(230, 17%, 14%);
+  color:White;
+}
+.cardBg{
+  background-color:hsl(228, 28%, 20%);
+}
+.textColor{
+  color:hsl(228, 34%, 66%);
+}
+.cardBg:hover{
+  background:hsl(228, 29%, 24%);
+}

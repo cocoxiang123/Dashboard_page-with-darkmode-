@@ -7,4 +7,5 @@ About project:
 3. Toggle button with normal view and dark mode;
 4. Responsive web design. 
 
-Demo Link:
+Demo Link: 
+https://social-media-dashboard-with-theme.netlify.app/

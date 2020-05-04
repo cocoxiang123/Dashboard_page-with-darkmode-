@@ -35,6 +35,18 @@ body{
     display: flex;
     justify-content: space-between;
   }
+
+}
+@media screen and (max-width:420px){
+  .App-container{
+    padding:50px 50px;
+  }
+}
+
+@media screen and (max-width:340px){
+  .App-container{
+    padding:20px 20px;
+  }
 }
 .total-followers{
   color:hsl(228, 12%, 44%);

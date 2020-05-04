@@ -7,7 +7,7 @@ import instergram from './images/icon-instagram.svg'
 const dashboards = [
     {
         name: 'facebook',
-        user: '@nathanf',
+        user: '@cocoX',
         logo: facebook,
         followers: 1987,
         increase: 12,
@@ -23,7 +23,7 @@ const dashboards = [
     },
     {
         name: 'twitter',
-        user: '@nathanf',
+        user: '@cocoX',
         logo: twitter,
         followers: 1044,
         increase: 99,
@@ -39,7 +39,7 @@ const dashboards = [
     },
     {
         name: 'instergram',
-        user: '@realnathanf',
+        user: '@realcocoX',
         logo: instergram,
         followers: 11734,
         increase: 1099,
@@ -54,7 +54,7 @@ const dashboards = [
     },
     {
         name: 'youtube',
-        user: 'Nathan F.',
+        user: 'coco X.',
         logo: youtube,
         followers: 8239,
         increase: -144,
